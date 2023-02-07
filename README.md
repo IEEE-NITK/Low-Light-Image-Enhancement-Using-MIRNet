@@ -5,4 +5,5 @@ The project entails two main objectives: to understand the entire architecture o
 Updates:
 
 MIRNet_v1.ipynb - A full working pipeline of the MIRNet model
+
 tf_lite_convert.ipynb - Code to convert tf code to tf_lite
