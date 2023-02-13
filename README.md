@@ -26,8 +26,8 @@ Framework of MIRNet Architecture
 ## References
 
 ## Project Mentors:
-1. ![Pranav Koundinya] (https://github.com/pranavmkoundinya)
-2. ![Ashrith D R] (https://github.com/ashrithdr)
+1. [Pranav Koundinya](https://github.com/pranavmkoundinya)
+2. [Ashrith D R](https://github.com/ashrithdr)
 ## Project Mentees:
 1. Dev Goti
 2. K V Srinanda
