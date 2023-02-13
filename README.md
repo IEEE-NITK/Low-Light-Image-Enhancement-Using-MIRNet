@@ -21,7 +21,7 @@ The core of the MIRNet Architecture is a multi-scale residual block containing s
 (d) attention based multi-scale feature aggregation.
 
 ![MIRNet Arch](https://user-images.githubusercontent.com/122466008/218511835-13eee4cc-252b-40b6-aeaf-b6e7c6c9bad0.jpg)
-Framework of MIRNet Architecture
+<p align="center">Framework of MIRNet Architecture</p>
 
 ## References
 
