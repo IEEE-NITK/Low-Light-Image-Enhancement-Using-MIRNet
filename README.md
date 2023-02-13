@@ -21,12 +21,17 @@ The core of the MIRNet Architecture is a multi-scale residual block containing s
 (d) attention based multi-scale feature aggregation.
 
 ![MIRNet Arch](https://user-images.githubusercontent.com/122466008/218511835-13eee4cc-252b-40b6-aeaf-b6e7c6c9bad0.jpg)
-<p align="center">Framework of MIRNet Architecture</p>
+Framework of MIRNet Architecture
 
 ## References
 
 ## Project Mentors:
-
+1. [Pranav Koundinya] (https://github.com/pranavmkoundinya)
+2. [Ashrith D R] (https://github.com/ashrithdr)
 ## Project Mentees:
-
+1. Dev Goti
+2. K V Srinanda
+3. Shubham Swadi
+4. Sushree Shivani Sethi
+5. D Jagannadha Reddy
 
