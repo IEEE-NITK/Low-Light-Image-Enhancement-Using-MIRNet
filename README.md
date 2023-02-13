@@ -30,8 +30,8 @@ Framework of MIRNet Architecture
 2. [Ashrith D R](https://github.com/ashrithdr)
 ## Project Mentees:
 1. Dev Goti
-2. K V Srinanda
-3. Shubham Swadi
+2. [K V Srinanda](https://github.com/Srinandakv2004)
+3. [Shubham Swadi](https://github.com/shubham-swadi)
 4. Sushree Shivani Sethi
 5. D Jagannadha Reddy
 
