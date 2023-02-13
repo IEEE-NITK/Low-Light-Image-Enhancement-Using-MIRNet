@@ -24,6 +24,8 @@ The core of the MIRNet Architecture is a multi-scale residual block containing s
 Framework of MIRNet Architecture
 
 ## References
+1. [Learning Enriched Features for Real Image Restoration and Enhancement](https://arxiv.org/pdf/2003.06792.pdf)
+
 
 ## Project Mentors:
 1. [Pranav Koundinya](https://github.com/pranavmkoundinya)
