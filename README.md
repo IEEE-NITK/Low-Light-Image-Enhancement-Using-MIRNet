@@ -25,11 +25,14 @@ Framework of MIRNet Architecture
 
 ## References
 1. [Learning Enriched Features for Real Image Restoration and Enhancement](https://arxiv.org/pdf/2003.06792.pdf)
-
+2. https://github.com/swz30/MIRNet
+3. https://github.com/soumik12345/MIRNet
+4. https://keras.io/examples/vision/mirnet/
 
 ## Project Mentors:
 1. [Pranav Koundinya](https://github.com/pranavmkoundinya)
 2. [Ashrith D R](https://github.com/ashrithdr)
+
 ## Project Mentees:
 1. Dev Goti
 2. [K V Srinanda](https://github.com/Srinandakv2004)
