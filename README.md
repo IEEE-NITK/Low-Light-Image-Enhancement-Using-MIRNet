@@ -35,7 +35,7 @@ The core of the MIRNet Architecture is a multi-scale residual block containing s
 2. [Ashrith D R](https://github.com/ashrithdr)
 
 ## Project Mentees:
-1. Dev Goti
+1. [Dev Goti](https://github.com/devgoti16)
 2. [K V Srinanda](https://github.com/Srinandakv2004)
 3. [Shubham Swadi](https://github.com/shubham-swadi)
 4. Sushree Shivani Sethi
