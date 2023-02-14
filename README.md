@@ -12,10 +12,7 @@ tf_lite_convert.ipynb - Code to convert tf code to tf_lite
 Recently CNNs(Convolutional Neural Networks) have played a key role in various image processing tasks.Existing CNN-based methods typically operate either on full-resolution or on progressively low-resolution representations.In the former case, spatially precise but contextually less robust results are achieved, while in the latter case, semantically reliable but spatially less accurate outputs are generated. MIRNet Architecture has been designed in such a manner that it achieve both the goals collectively: **Maintaining spatially precise high-resolution representations through the entire network and receive strong contextual information from low resolution representations.** We have adopted the MIRNet architecture for this project and have referred to a research paper for the same.
 
 ## Technologies Used
-1. Python
-2. TensorFlow
-3. Arduino
-4. TensorFlow Lite
+[![Tech_Used](https://skills.thijs.gg/icons?i=py,tensorflow,arduino&theme=dark)](https://skills.thijs.gg)
 
 ## MIRNet Architecture
 The core of the MIRNet Architecture is a multi-scale residual block containing several key elements: <br>
