@@ -39,6 +39,8 @@ streams. The select operator uses these descriptors to recalibrate the feature
 maps (of different streams) followed by their aggregation.
 
 
+![SKFF](https://user-images.githubusercontent.com/122466008/218926078-1c142a70-b2d4-4532-8283-63a9c2631ab7.jpg)
+<p align="center">Schematic for SKFF</p>
 
 #### **2. Dual Attention Unit(DAU)**
 While the SKFF block fuses information across
@@ -47,11 +49,13 @@ a feature tensor, both along the spatial and the channel dimensions. For this pu
 Channel Attention branch exploits the inter-channel relationships of the convolutional feature maps by applying squeeze and excitation operations
 <br>
 Spatial Attention branch is designed to exploit the inter-spatial dependencies of convolutional features.
-
+![DAU](https://user-images.githubusercontent.com/122466008/218926336-c5a49991-4377-4451-9dfc-99d62e759e1d.jpg)
+<p align="center">DAU with channel and spatial attention mechanisms</p>
 
 #### **3. Residual Resizing Modules**
 In order to maintain the residual nature of the architecture(refers to the use of skip connections to create residual blocks that allow information to flow directly from one layer to another, bypassing one or more intermediate layers), we introduce residual resizing modules to perform downsampling and upsampling operations.
-
+![RRM](https://user-images.githubusercontent.com/122466008/218926366-73021c4f-e59c-42fb-9bfb-8531ee3db6f4.jpg)
+<p align="center">RRMs to perform upsampling and downsampling</p>
 ## Dataset
 For the purpose of image enhancement, the architecture is trained on **LoL** dataset. LoL is created for low-light image enhancement problem. It consists of 485 images for training and 15 images for testing. Each image pair in LoL consists of a low-light input image and its corresponding well-exposed reference image.
 
