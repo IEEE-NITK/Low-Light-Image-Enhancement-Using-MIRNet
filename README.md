@@ -68,7 +68,7 @@ For the purpose of image enhancement, the architecture is trained on **LoL** dat
 2. [Ashrith D R](https://github.com/ashrithdr)
 
 ## Project Mentees:
-1. Dev Goti
+1. [Dev Goti](https://github.com/devgoti16)
 2. [K V Srinanda](https://github.com/Srinandakv2004)
 3. [Shubham Swadi](https://github.com/shubham-swadi)
 4. Sushree Shivani Sethi
