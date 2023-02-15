@@ -24,6 +24,39 @@ The core of the MIRNet Architecture is a multi-scale residual block containing s
 ![MIRNet Arch](https://user-images.githubusercontent.com/122466008/218511835-13eee4cc-252b-40b6-aeaf-b6e7c6c9bad0.jpg)
 <p align="center">Framework of the MIRNet Architecture</p>
 
+### Overall Pipeline
+
+### Multi-scale Residual Block
+The research paper proposes a multi scale residual block which is capable of generating a spatially-precise output by maintaining high-resolution representations, while receiving rich contextual information from low-resolution representations.The MRB consists of multiple (three in this paper) fully-convolutional streams
+connected in parallel. It allows information exchange across parallel streams in
+order to consolidate the high-resolution features with the help of low-resolution
+features, and vice versa. The components of MRB are described as follows:
+
+#### **1. Selective Kernel Feature Fusion(SKFF)**
+SKFF module performs dynamic adjustment of receptive fields via two operations: Fuse and Select.The fuse operator generates
+global feature descriptors by combining the information from multi-resolution
+streams. The select operator uses these descriptors to recalibrate the feature
+maps (of different streams) followed by their aggregation.
+
+
+
+#### **2. Dual Attention Unit(DAU)**
+While the SKFF block fuses information across
+multi-resolution branches, there is a need for  a mechanism to share information within
+a feature tensor, both along the spatial and the channel dimensions. For this purpose we require DAU and the feature recalibration is achieved by using channel and spatial attention mechanisms.<br>
+Channel Attention branch exploits the inter-channel relationships of the convolutional feature maps by applying squeeze and excitation operations
+<br>
+Spatial Attention branch is designed to exploit the inter-spatial dependencies of convolutional features.
+
+
+#### **3. Residual Resizing Modules**
+In order to maintain the residual nature of the architecture(refers to the use of skip connections to create residual blocks that allow information to flow directly from one layer to another, bypassing one or more intermediate layers), we introduce residual resizing modules to perform downsampling and upsampling operations.
+
+## Dataset
+For the purpose of image enhancement, the architecture is trained on **LoL** dataset. LoL is created for low-light image enhancement problem. It consists of 485 images for training and 15 images for testing. Each image pair in LoL consists of a low-light input image and its corresponding well-exposed reference image.
+
+## Performance and Results
+
 ## References
 1. [Learning Enriched Features for Real Image Restoration and Enhancement](https://arxiv.org/pdf/2003.06792.pdf)
 2. https://github.com/swz30/MIRNet
