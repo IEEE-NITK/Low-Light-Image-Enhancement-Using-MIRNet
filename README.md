@@ -25,6 +25,11 @@ The core of the MIRNet Architecture is a multi-scale residual block containing s
 <p align="center">Framework of the MIRNet Architecture</p>
 
 ### Overall Pipeline
+Let 𝐈 be an Image of dimensions ℝ<sup>HxWx3</sup>. The network first applies a convolutional layer to extract low-level features 𝐗<sub>𝐎</sub> ∈ ℝ<sup>HxWxC</sup>. Next, the feature maps 𝐗<sub>𝐎</sub> to pass through N number of recursive residual groups (RRGs), which yield deep features 𝐗<sub>𝐝</sub> ∈ ℝ<sup>HxWxC</sup>. RRG contains several multi-scale residual blocks. In the next step we apply one more convolutional layer to deep features 𝐗<sub>𝐝</sub> to obtain a residual image 𝐑 ∈ ℝ<sup>HxWx3</sup>. The restored image is obtained as follows: Î = 𝐈 + 𝐑. We use Charbonnier loss to optimize our proposed network.
+$$𝓛(Î,𝐈*) = \sqrt{||Î - 𝐈*||^2 + ε^2}$$
+where,
+𝐈* denotes the ground-truth image
+ε is a constant which we  emperically set to 10<sup>-3</sup> for all the experiments.
 
 ### Multi-scale Residual Block
 The research paper proposes a multi scale residual block which is capable of generating a spatially-precise output by maintaining high-resolution representations, while receiving rich contextual information from low-resolution representations.The MRB consists of multiple (three in this paper) fully-convolutional streams
