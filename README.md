@@ -69,14 +69,16 @@ For the purpose of image enhancement, the architecture is trained on **LoL** dat
 We tried varying the number of MRBs(Multi-scale Residual Blocks) and RRGs(Recursive Residual Groups) in the MIRNet Architecture and tested their performances.The results are as follows:
 
 Baseline Model: 3 RRGs and 2 MRBs
+![Baseline](https://user-images.githubusercontent.com/122466008/227175436-f54a6ecc-076e-4038-a61d-8c890f37507a.jpg)
 
-Model 2: 2 RRGs and 2 MRBs
+Model 2: 3 MRBs and 3 RRGs
+![image](https://user-images.githubusercontent.com/122466008/227177085-5662a6a2-f33f-4953-9697-23b078c3e6c5.png)
 
-Model 3: 3 MRBs and 3 RRGs
+Model 3: 1 MRB and 3 RRGs
+![image](https://user-images.githubusercontent.com/122466008/227177414-dc5f5c3b-485d-423c-aa9d-857951acb40a.png)
 
-Model 4: 1 MRB and 3 RRGs
-
-Model 5: 1 MRB and 1 RRG
+Model 4: 1 MRB and 1 RRG
+![image](https://user-images.githubusercontent.com/122466008/227177600-c76c4cb2-fa21-42ff-bf18-3950a985b700.png)
 
 
 ## References
