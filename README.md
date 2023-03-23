@@ -66,6 +66,18 @@ In order to maintain the residual nature of the architecture(refers to the use o
 For the purpose of image enhancement, the architecture is trained on **LoL** dataset. LoL is created for low-light image enhancement problem. It consists of 485 images for training and 15 images for testing. Each image pair in LoL consists of a low-light input image and its corresponding well-exposed reference image.
 
 ## Performance and Results
+We tried varying the number of MRBs(Multi-scale Residual Blocks) and RRGs(Recursive Residual Groups) in the MIRNet Architecture and tested their performances.The results are as follows:
+
+Baseline Model: 3 RRGs and 2 MRBs
+
+Model 2: 2 RRGs and 2 MRBs
+
+Model 3: 3 MRBs and 3 RRGs
+
+Model 4: 1 MRB and 3 RRGs
+
+Model 5: 1 MRB and 1 RRG
+
 
 ## References
 1. [Learning Enriched Features for Real Image Restoration and Enhancement](https://arxiv.org/pdf/2003.06792.pdf)
