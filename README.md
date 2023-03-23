@@ -84,6 +84,11 @@ We tried varying the number of MRBs(Multi-scale Residual Blocks) and RRGs(Recurs
 
 ![image](https://user-images.githubusercontent.com/122466008/227177600-c76c4cb2-fa21-42ff-bf18-3950a985b700.png)
 
+**Model 5: 2 MRBs and 2 RRGs**
+
+![image](https://user-images.githubusercontent.com/122466008/227205182-2916063a-34b3-402f-945e-51d876347d47.png)
+
+
 ## TensorFlow to TensorFlow Lite Conversion
 
 ![image](https://user-images.githubusercontent.com/122466008/227180862-b68c9a81-67de-417d-8c04-8ca677228719.png)
